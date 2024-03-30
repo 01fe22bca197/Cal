@@ -1,4 +1,4 @@
-class Cal {
+class Cal extends ExtendCal {
 
     float addition(float operand1, float operand2) {
         return (operand1 + operand2);
@@ -28,6 +28,9 @@ class Cal {
         System.out.println(c_result);
         float d_result = c.division(operand1, operand2);
         System.out.println(d_result);
-
+        float e_result = c.square(operand1);
+        System.out.println(e_result);
+        float f_result = c.cube(operand1);
+        System.out.println(f_result);
     }
 }
